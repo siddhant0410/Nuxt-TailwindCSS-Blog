@@ -7,7 +7,7 @@
           to="/"
           class="text-2xl font-bold text-gray-800 hover:text-blue-500 transition duration-200"
         >
-          My Blog
+          Siddhant's Blog
         </NuxtLink>
       </div>
       <!-- Navigation Links -->
@@ -19,14 +19,6 @@
               class="hover:text-blue-500 transition duration-200"
             >
               Home
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink
-              to="/blogs"
-              class="hover:text-blue-500 transition duration-200"
-            >
-              Blogs
             </NuxtLink>
           </li>
           <li>
@@ -46,5 +38,5 @@
 <script setup></script>
 
 <style scoped>
-/* Optional custom styles if needed */
+/* Optional additional styling */
 </style>
