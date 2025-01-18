@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "title": "Understanding JavaScript Closures",
+      "slug": "understanding-javascript-closures",
+      "content": "JavaScript closures are an essential concept that allows functions to access variables from their outer scope. This is particularly useful for creating private variables or implementing functional programming patterns. In this blog, we explore closures with practical examples.",
+      "image": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "id": 2,
+      "title": "Mastering CSS Grid Layout",
+      "slug": "mastering-css-grid-layout",
+      "content": "CSS Grid is a powerful layout system that makes building complex and responsive web designs easier than ever. Learn how to use grid containers, rows, and columns to create dynamic web layouts.",
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "id": 3,
+      "title": "The Rise of Artificial Intelligence",
+      "slug": "the-rise-of-artificial-intelligence",
+      "content": "Artificial Intelligence is transforming industries, from healthcare to finance. This post delves into the current trends in AI and explores its potential future impact on the world.",
+      "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "id": 4,
+      "title": "Getting Started with TailwindCSS",
+      "slug": "getting-started-with-tailwindcss",
+      "content": "TailwindCSS is a utility-first CSS framework that simplifies building custom designs. This guide provides an introduction to its features and explains how to integrate it into your project.",
+      "image": "https://images.pexels.com/photos/1022925/pexels-photo-1022925.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "id": 5,
+      "title": "Top 10 Tips for Effective Remote Work",
+      "slug": "top-10-tips-for-effective-remote-work",
+      "content": "Remote work is becoming the norm in many industries. In this blog, we share 10 practical tips to boost productivity and maintain work-life balance while working remotely.",
+      "image": "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "id": 6,
+      "title": "Exploring the Basics of Machine Learning",
+      "slug": "exploring-the-basics-of-machine-learning",
+      "content": "Machine learning is a subfield of AI that focuses on building systems that can learn and improve from experience. Discover the basic concepts of machine learning and its key algorithms.",
+      "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "id": 7,
+      "title": "The Benefits of Daily Meditation",
+      "slug": "the-benefits-of-daily-meditation",
+      "content": "Meditation is a practice that improves mental clarity, reduces stress, and enhances overall well-being. Learn about the benefits of daily meditation and how to incorporate it into your routine.",
+      "image": "https://images.pexels.com/photos/357155/pexels-photo-357155.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "id": 8,
+      "title": "How to Build a Personal Portfolio Website",
+      "slug": "how-to-build-a-personal-portfolio-website",
+      "content": "A personal portfolio website is a great way to showcase your skills and projects. This blog outlines the steps to create a stunning portfolio using modern web development tools.",
+      "image": "https://images.pexels.com/photos/497491/pexels-photo-497491.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "id": 9,
+      "title": "Understanding RESTful APIs",
+      "slug": "understanding-restful-apis",
+      "content": "RESTful APIs are a cornerstone of modern web development. This guide explains the principles of REST and how to design and consume RESTful APIs effectively.",
+      "image": "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&h=350"
+    },
+    {
+      "id": 10,
+      "title": "Introduction to React Hooks",
+      "slug": "introduction-to-react-hooks",
+      "content": "React Hooks revolutionized how we write functional components in React. Learn the basics of hooks like useState and useEffect to manage state and lifecycle in your components.",
+      "image": "https://images.pexels.com/photos/38537/pexels-photo-38537.jpeg?auto=compress&cs=tinysrgb&h=350"
+    }
+  ]
+  

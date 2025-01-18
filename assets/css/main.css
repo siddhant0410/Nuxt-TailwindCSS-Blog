@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+body {
+  @apply bg-[#F1F2F4] dark:text-zinc-300 dark:bg-slate-950; /* Default Light Mode */
+}
+
+/* Dark Mode Support */
+@layer base {
+  body.dark {
+    @apply bg-gray-900 text-gray-100; /* Dark Mode Colors */
+  }
+}
+
+/* Custom Components */
+@layer components {
+  /* Button Styles */
+  .btn {
+    @apply bg-[#12b488] text-white px-4 py-2 rounded-md text-sm font-medium shadow-md transition duration-200;
+  }
+
+  .btn:hover {
+    @apply bg-[#0f9e6e] shadow-lg;
+  }
+
+  .btn:focus {
+    @apply ring-2 ring-[#12b488] ring-offset-2 ring-offset-gray-50;
+  }
+
+  .btn.dark {
+    @apply bg-[#12b488] text-gray-900 ring-offset-gray-900;
+  }
+}
