@@ -1,44 +1,41 @@
 <template>
-  <div class="bg-gray-50 py-16">
-    <div
-      class="container mx-auto px-6 lg:px-20 flex flex-col lg:flex-row items-center lg:gap-12"
+  <div class="relative bg-gray-50 h-[60vh] flex items-center justify-start">
+    <!-- Video Background -->
+    <video
+      class="absolute top-0 left-0 w-full h-full object-cover z-0"
+      autoplay
+      loop
+      muted
+      playsinline
     >
-      <!-- Left Content -->
-      <div class="lg:w-1/2 mb-8 lg:mb-0 text-center lg:text-left">
-        <h1 class="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
-          Welcome to <span class="text-blue-500">My Blog</span>
+      <source
+        src="https://videos.pexels.com/video-files/11274341/11274341-uhd_2560_1440_25fps.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Overlay -->
+    <div
+      class="absolute top-0 left-0 bg-black bg-opacity-70 backdrop-blur-md p-8 rounded-br-lg z-10"
+    >
+      <!-- Text Content -->
+      <div class="text-white">
+        <h1 class="text-3xl md:text-4xl font-bold leading-tight">
+          Welcome to <span class="text-blue-400">My Blog</span>
         </h1>
-        <p class="text-lg text-gray-600 mt-4">
+        <p class="text-md mt-2">
           Discover insights, tutorials, and stories that
-          <span class="font-semibold text-gray-700">inspire</span>. Let's
-          explore the world of technology together.
+          <span class="font-semibold">inspire</span>. Let's explore the world of
+          technology together.
         </p>
-        <div class="mt-6">
+        <div class="mt-4">
           <NuxtLink
-            to="/blog"
-            class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-200"
+            to="/"
+            class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg shadow-lg transform hover:scale-105 transition duration-200"
           >
             Explore Blogs
           </NuxtLink>
-        </div>
-      </div>
-
-      <!-- Right Content: Video -->
-      <div class="lg:w-1/2 flex justify-center">
-        <div class="relative lg:w-3/4 rounded-lg shadow-lg overflow-hidden">
-          <video
-            class="w-full h-full rounded-lg transform hover:scale-105 transition duration-300"
-            autoplay
-            loop
-            muted
-            playsinline
-          >
-            <source
-              src="https://videos.pexels.com/video-files/4354035/4354035-uhd_2560_1440_25fps.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
         </div>
       </div>
     </div>
@@ -46,3 +43,13 @@
 </template>
 
 <script setup></script>
+
+<style>
+/* Ensure video and content maintain proportions */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+</style>

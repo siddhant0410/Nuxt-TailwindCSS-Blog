@@ -1,5 +1,9 @@
 <template>
   <div>
+    <div class="container mx-auto px-4 md:px-20 py-16">
+      <Hero />
+    </div>
+
     <!-- Blogs Section -->
     <div ref="blogsSection" class="container mx-auto px-4 md:px-20 py-16">
       <h2 class="text-3xl font-bold mb-6 text-center">Explore Blogs</h2>
