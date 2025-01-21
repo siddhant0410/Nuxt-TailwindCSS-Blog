@@ -18,10 +18,10 @@
       <BlogDetails :blog="blog" />
 
       <!-- Back Button -->
-      <div class="text-center mt-8">
+      <div class="text-center">
         <NuxtLink
           to="/"
-          class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-md shadow-md transition duration-200"
+          class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-3 rounded-md shadow-md transition duration-200"
         >
           Back to Blogs
         </NuxtLink>
@@ -36,9 +36,9 @@
 <script setup>
 import { useRoute } from "vue-router";
 import { ref, onMounted } from "vue";
-import ErrorMessages from "@/components/ErrorMessages.vue";
-import SkeletonLoader from "@/components/SkeletonLoader.vue";
-import BlogDetails from "@/components/BlogDetails.vue";
+import ErrorMessages from "~/components/GlobalComponents/ErrorMessages.vue";
+import SkeletonLoader from "~/components/GlobalComponents/SkeletonLoader.vue";
+import BlogDetails from "~/components/DynamicRenderingComponents/BlogDetails.vue";
 
 // Get route parameters
 const route = useRoute();

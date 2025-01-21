@@ -20,22 +20,11 @@
     <p class="text-gray-700 leading-relaxed mb-6 whitespace-pre-line">
       {{ blog.content }}
     </p>
-
-    <!-- Likes and Comments -->
-    <div class="flex items-center justify-between text-gray-600 text-sm">
-      <p>
-        <span class="font-bold text-gray-900">{{ blog.likes }}</span> Likes
-      </p>
-      <p>
-        <span class="font-bold text-gray-900">{{ blog.comments }}</span>
-        Comments
-      </p>
-    </div>
   </div>
 </template>
 
 <script setup>
-import Tags from "@/components/Tags.vue";
+import Tags from "@/components/DynamicRenderingComponents/Tags.vue";
 defineProps({
   blog: {
     type: Object,

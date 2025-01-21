@@ -29,20 +29,14 @@
           <span class="font-semibold">inspire</span>. Let's explore the world of
           technology together.
         </p>
-        <div class="mt-4">
-          <NuxtLink
-            to="/"
-            class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg shadow-lg transform hover:scale-105 transition duration-200"
-          >
-            Explore Blogs
-          </NuxtLink>
-        </div>
       </div>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+defineEmits(["scroll-to-blogs"]);
+</script>
 
 <style>
 /* Ensure video and content maintain proportions */
